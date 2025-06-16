@@ -1,8 +1,19 @@
+---
+title: Dogecoin LSTM Predictor
+emoji: 🐶
+colorFrom: yellow
+colorTo: red
+sdk: streamlit
+sdk_version: "1.35.0"
+app_file: app.py
+pinned: false
+---
+
 # 🐶📈 Dogecoin Price Predictor (LSTM-based)
 
-A deep learning project using LSTM (Long Short-Term Memory) networks to forecast Dogecoin (DOGE) prices based on historical data. This project leverages the power of sequence modeling and time series forecasting to analyze crypto market trends.
+Get ready to predict Dogecoin prices with the power of LSTM!
 
----
+Dive into the world of cryptocurrency forecasting with this deep learning project! Using LSTM (Long Short-Term Memory) networks, this app predicts Dogecoin (DOGE) prices by analyzing historical data. Whether you're a crypto enthusiast or a data science learner, this project offers a blend of sequence modeling, time series forecasting, and interactive visualization.
 
 ## 🚀 Project Overview
 
@@ -13,27 +24,32 @@ A deep learning project using LSTM (Long Short-Term Memory) networks to forecast
 - 📉 Visualizations: Loss curve, actual vs predicted, residual diagnostics, future price projection
 
 ---
-
 ## 📌 Highlights
 
 - ✅ Built and trained a custom LSTM network on preprocessed crypto time series
 - ✅ Achieved strong performance on test set (R² score, low residuals)
 - ✅ Visualized residual distribution, model diagnostics, and future forecasts
 - ✅ Saved model and scaler for real-time or batch inference
-- ✅ Ready for Streamlit deployment!
+- ✅ Deployed on Hugging Face using Streamlit
 
 ---
 
+## 🌐 Live Demo
+![App Interface](app_interface.png)
+👉 [Try the App on Hugging Face Spaces](https://huggingface.co/spaces/Kurra-Srinivas/dogecoin-lstm-predictor-lstm-based)
+
+---
 ## 🧰 Tech Stack
 
-| Tool/Library     | Purpose                         |
-|------------------|---------------------------------|
-| Python (3.12)    | Core programming language       |
-| TensorFlow/Keras | LSTM Model Building & Training  |
-| Scikit-learn     | Metrics, preprocessing          |
-| Pandas, NumPy    | Data manipulation               |
-| Matplotlib, Seaborn | Plotting & visualization    |
-| Git/GitHub       | Version control & collaboration |
+| Tool/Library       | Purpose                         |
+|--------------------|---------------------------------|
+| Python (3.12)      | Core programming language       |
+| TensorFlow/Keras   | LSTM Model Building & Training  |
+| Scikit-learn       | Metrics, preprocessing          |
+| Pandas, NumPy      | Data manipulation               |
+| Matplotlib, Seaborn| Plotting & visualization        |
+| Streamlit          | Web app deployment              |
+| Git/GitHub         | Version control & collaboration |
 
 ---
 
@@ -60,10 +76,10 @@ A deep learning project using LSTM (Long Short-Term Memory) networks to forecast
 
 ## 📈 Sample Results
 
-| Metric            | Value     |
-|-------------------|-----------|
-| R² Score (Test)   | `~0.90+` (adjust as per actual) |
-| MAE / MSE         | Low (fine-tune in model tuning) |
+| Metric            | Value              |
+|-------------------|--------------------|
+| R² Score (Test)   | ~0.90+             |
+| MAE / MSE         | Low (well-optimized) |
 
 ---
 
@@ -71,7 +87,7 @@ A deep learning project using LSTM (Long Short-Term Memory) networks to forecast
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/Dogecoin-LSTM-Predictor.git
+git clone https://github.com/Kurra-Srinivas/Dogecoin-LSTM-Predictor.git
 cd Dogecoin-LSTM-Predictor
 
 # 2. (Optional) Create virtual environment
@@ -81,29 +97,14 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 # 3. Install requirements
 pip install -r requirements.txt
 
-# 4. Run the notebook
-jupyter notebook dogecoin_lstm.ipynb
+# 4. Run the Streamlit app
+streamlit run app.py
 ```
 
 ---
-
-## 🌍 Deployment Ideas
-
-✅ Streamlit App  
-✅ Flask or FastAPI backend with a frontend dashboard  
-✅ Scheduled inference jobs using `cron` or Airflow
-
----
-
 ## 🙋‍♂️ Author
 
 **Kurra Srinivas**  
-📧 srinivaskurra886@gmail.com  
-📎 [LinkedIn](https://www.linkedin.com) *(replace with actual)*  
+📧 Email:(srinivaskurra886@gmail.com)
+📧 Linkedin:(https://www.linkedin.com/in/kurra-srinivas-31727420b/)
 🐙 GitHub: [Kurra-Srinivas](https://github.com/Kurra-Srinivas)
-
----
-
-## ⭐ Star This Repo
-
-If you found this project helpful or inspiring, give it a ⭐️ to show support!
