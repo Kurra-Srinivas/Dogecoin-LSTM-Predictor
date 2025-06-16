@@ -1,3 +1,10 @@
+import os
+
+# Redirect Streamlit config and logs to local folder
+os.environ["STREAMLIT_HOME"] = os.path.join(os.getcwd(), ".streamlit")
+
+# Ensure the folder exists
+os.makedirs(os.environ["STREAMLIT_HOME"], exist_ok=True)
 import streamlit as st
 import numpy as np
 import pandas as pd
