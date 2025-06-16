@@ -34,10 +34,10 @@ Dive into the world of cryptocurrency forecasting with this deep learning projec
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Demo on Huggingface 🤗
+
 ![App Interface](app_interface.png)
 👉 [Try the App on Hugging Face Spaces](https://huggingface.co/spaces/Kurra-Srinivas/dogecoin-lstm-predictor-lstm-based)
-
 ---
 ## 🧰 Tech Stack
 
@@ -105,6 +105,6 @@ streamlit run app.py
 ## 🙋‍♂️ Author
 
 **Kurra Srinivas**  
-📧 Email:(srinivaskurra886@gmail.com)
-📧 Linkedin:(https://www.linkedin.com/in/kurra-srinivas-31727420b/)
-🐙 GitHub: [Kurra-Srinivas](https://github.com/Kurra-Srinivas)
+📧 Email: [srinivaskurra886@gmail.com](mailto:srinivaskurra886@gmail.com)  
+🔗 LinkedIn: [https://www.linkedin.com/in/kurra-srinivas-31727420b/](https://www.linkedin.com/in/kurra-srinivas-31727420b/)  
+🐙 GitHub: [Kurra-Srinivas](https://github.com/Kurra-Srinivas)  
